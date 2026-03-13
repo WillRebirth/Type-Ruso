@@ -36,3 +36,8 @@ body {
     font-size: 30px;
     color: red;
 }
+
+button {
+    font-size: 28px;
+    padding: 10px 20px;
+}
