@@ -106,3 +106,19 @@ button:hover {
     font-size: 20px;
     margin-top: 15px;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode input {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}

@@ -93,6 +93,28 @@ function verificarPalabra() {
     
 }
 
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
+
+function toggleDarkMode() {
+
+    document.body.classList.toggle("dark-mode");
+
+    if(document.body.classList.contains("dark-mode")){
+        localStorage.setItem("modoOscuro", "activado");
+    } else {
+        localStorage.setItem("modoOscuro", "desactivado");
+    }
+
+}
+
+if(localStorage.getItem("modoOscuro") === "activado"){
+    document.body.classList.add("dark-mode");
+}
+
+
 function mostrarTraduccion(palabra) {
     var indice = palabrasEnRuso.indexOf(palabra);
     if (indice !== -1 && indice < traduccionesEnIngles.length) {
