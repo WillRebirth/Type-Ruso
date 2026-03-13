@@ -14,6 +14,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+#palabra_a_tipear {
+    font-size: 40px;
+    color: black;
+}
+
 h1 {
     text-align: center;
     color: #333;
@@ -120,5 +125,9 @@ button:hover {
 
 .dark-mode button {
     background-color: #333;
+    color: white;
+}
+
+.dark-mode #palabra_a_tipear {
     color: white;
 }
