@@ -19,6 +19,12 @@
     font-size: 20px;
 }
 
+.dark-mode #resultado{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -56,4 +62,10 @@ body {
     color: #444;
     margin-bottom: 20px;
     line-height: 1.6;
+}
+
+#resultado{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: green;
 }
