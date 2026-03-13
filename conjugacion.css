@@ -37,6 +37,10 @@ body {
     color: red;
 }
 
+#respuesta {
+    font-size: 26px;
+}
+
 #but {
     font-size: 28px;
     padding: 10px 20px;
