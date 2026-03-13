@@ -119,7 +119,7 @@ button:hover {
 
 .dark-mode input {
     background-color: #222;
-    color: white;
+    color: rgb(255, 0, 0);
     border: 1px solid #555;
 }
 
@@ -129,5 +129,5 @@ button:hover {
 }
 
 .dark-mode #palabra_a_tipear {
-    color: white;
+    color: rgb(255, 0, 0);
 }
