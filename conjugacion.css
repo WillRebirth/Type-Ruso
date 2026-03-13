@@ -26,3 +26,13 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+#verbo {
+    font-size: 40px;
+    color: blue;
+}
+
+#pronombre {
+    font-size: 30px;
+    color: red;
+}
