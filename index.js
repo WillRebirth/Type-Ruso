@@ -54,6 +54,9 @@ const traduccionesEnIngles = [
     "silencioso","ruidoso","rojo","azul","verde","amarillo","blanco","negro","gris","marrón"
 ];
 
+function irAConjugacion(){
+    window.location.href = "conjugacion.html";
+}
 
 function mostrarPalabraAleatoria(){
     var indice = Math.floor(Math.random() * palabrasEnRuso.length);
