@@ -142,3 +142,7 @@ button:hover {
 .dark-mode #palabra_a_tipear {
     color: rgb(255, 0, 0);
 }
+
+.dark-mode #traduccion_palabra{
+    color: rgb(47, 133, 76);
+}
