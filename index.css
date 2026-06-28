@@ -143,6 +143,12 @@ button:hover {
     color: rgb(255, 0, 0);
 }
 
+.dark-mode #traduccion {
+    font-size: 36px;
+    color: #4caf50;
+}
+
 .dark-mode #traduccion_palabra{
     color: rgb(47, 133, 76);
+    font-size: 30px;
 }
